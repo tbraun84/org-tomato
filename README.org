@@ -7,8 +7,8 @@ git clone git@github.com:ndwarshuis/org-tomato.git
 #+END_SRC
 
 #+BEGIN_SRC emacs-lisp
-(add-to-list load-path "path/to/repo")
-(require org-tomato)
+(add-to-list 'load-path "path/to/repo")
+(require 'org-tomato)
 #+END_SRC
 
 * Motivation
